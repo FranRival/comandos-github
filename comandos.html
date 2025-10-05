@@ -7,7 +7,42 @@
 </head>
 <body>
     <h1>Terminal y linea de comandos</h1>
-    <p>git status -- ver cuales archivos se estan subiendo. <br> ls --- ver la cantidad de archivos.</p>
+    <p>git status --&gt; ver cuales archivos se estan subiendo. <br> ls ---&gt; ver la cantidad de archivos.</p>
+
+    <p>ls -al --&gt;<br>
+        git add . --- agregar todos los archivos <br>
+        ls -l &lt;--- muestra todos los archivos excepto los ocultos.<br>
+        ls -al &lt;----todos los archivos incluidos los ocultos<br>
+        ls -a &lt;---<br>
+        cd /c &lt;---disco local<br>
+        cd U (letra mayuscula) + tabx2 &lt;----los archivos que comienzan con la letra <br>
+        cd U (letra mayuscula) + la siguiente letra de la palabra &lt;----autorelleno <br>
+
+        mkdir &lt;---crear carpeta <br>
+        touch vacio.txt &lt;----crear archivos <br>
+        cat ARCHIVO.txt &lt;---leemos desde la consola <br>
+        history &lt;---la historia de linea de comando<br>
+        ! NUMERO DE LA LINEA DE HISTORIA &lt;---repite el comando <br>
+        rm ARCHIVO.txt &lt;---elimina el archivo <br>
+        rm --help &lt;---saber todas las combinaciones <br>
+        ctrl+l &lt;----limpiar la mierda. <br>
+
+
+        <h2>CREANDO REPOSITORIO Y EL PRIMER COMMIT </h2>
+        <br>donde esta el index.html.<br>
+
+        git init &lt;--iniciar repositorio. .git (archivo oculto) <br>
+        git status &lt;---los archivos sin guardar <br>
+        git add ARCHIVO &lt;---para que lo rastree <br>
+        git rm ARCHIVO &lt;---te pregunta que debe hacer con el archivo<br>
+        git rm --cached ARCHIVO &lt;---te mantiene el archivo <br>pero lo elimina del tracking <br>
+        cached &lt;---memoria ram<br>
+        git commit -m "" &lt;---enviarlo, con un mensaje<br><br>
+
+        git config &lt;---la configuracion<br>
+        git config --list &lt;---en lista la configuracion <br>
+        git config --list --show-origin &lt;----avanzado<br>
+</p>
     
 </body>
 </html>
